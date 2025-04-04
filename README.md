@@ -1,12 +1,39 @@
-Weather App
-- This is a simple weather application that fetches and displays weather information for a specified city. The application uses the OpenWeatherMap API to retrieve weather data and Tkinter for the graphical user interface.
+# State College Weather App
 
-Features
-- Get current weather information for any city.
-- Display temperature in Fahrenheit.
-- Show atmospheric pressure, humidity, wind speed, and a brief weather description.
+A beautiful, animated weather application that displays current weather conditions for State College, PA.
 
-Requirements
-- Python 3.x
-- Tkinter (usually included with Python installations)
-- requests library
+## Features
+
+- Real-time weather data
+- Animated weather icons
+- Responsive design
+- Detailed weather information including temperature, humidity, and wind speed
+- Automatic updates every 5 minutes
+
+## Setup
+
+1. Clone this repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Get an API key from [OpenWeatherMap](https://openweathermap.org/api)
+4. Replace `YOUR_API_KEY` in `src/App.tsx` with your actual API key
+
+## Running the App
+
+To start the development server:
+
+```bash
+npm start
+```
+
+The app will be available at [http://localhost:3000](http://localhost:3000)
+
+## Technologies Used
+
+- React
+- TypeScript
+- Styled Components
+- Framer Motion
+- OpenWeatherMap API
